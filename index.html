@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/console.css" />
+    <link rel="stylesheet" href="./css/hideScrollbar.css" />
+    <link rel="stylesheet" href="./css/blurry-text.css" />
+    <title>WORK</title>
+    <style>
+      body {
+        opacity: 0; /* 设置初始不透明度为 0 */
+        transition: opacity 1s ease-in-out; /* 添加淡入效果 */
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 鼠标样式 -->
+    <div id="g-pointer-1"></div>
+    <div id="g-pointer-2"></div>
+    <!-- 鼠标样式 -->
+
+    <div class="container">
+      <div class="txt">
+        <p class="top blurry-text">
+          Feel free to explore my work and get in touch if you'd like to
+          collaborate or discuss potential design opportunities. Let's bring
+          your digital ideas to life together!
+        </p>
+      </div>
+
+      <div class="img1 blurry-text">
+        <a onclick="vi()">
+          <img src="./images/VI/index@1.5x.jpg" />
+        </a>
+        <p><span>One Stone Coffee </span><br />"Brewing Nature's Elegance"</p>
+      </div>
+      <div class="img2 blurry-text">
+        <a onclick="ui()"><img src="./images/UI/index.jpg" /></a>
+        <p><span>Paylux </span><br />"Reshaping Payment Software Experience"</p>
+      </div>
+      <div class="img4 blurry-text">
+        <a onclick="book()"><img src="./images/book/index.jpg" /></a>
+        <p>
+          <span>Religio </span><br />"Reshaping Payment Software Experience"
+        </p>
+      </div>
+      <div class="img3 blurry-text">
+        <a onclick="web()"><img src="./images/WEB/index.jpg" /></a>
+        <p>
+          <span>Commerce flow</span><br />"Unleash Your E-commerce Management"
+        </p>
+      </div>
+
+      <div class="sen blurry-text">
+        <hr />
+      </div>
+
+      <div class="txt7 blurry-text">
+        <p class="blurry-text">
+          <a href="https://twitter.com/ziyuesu3" target="_blank">TWITTER</a>
+          <a
+            href="https://instagram.com/sushietsu?igshid=OGQ5ZDc2ODk2ZA=="
+            target="_blank"
+            >INSTAGRAM</a
+          >
+          <a href="https://www.behance.net/shietsusu" target="_blank"
+            >BEHANCE</a
+          >
+        </p>
+      </div>
+
+      <div class="txt8 blurry-text">
+        <p>"Designed by Su Ziyue."&"Thank you for watching."</p>
+      </div>
+
+      <div class="txt6">
+        <p class="blurry-text" id="centered-element">
+          <a href="./index.html" style="pointer-events: none">WORK</a><br />
+          <a onclick="about()" style="color: #a8a8a8">ABOUT</a> <br />
+          <a onclick="contact()" style="color: #a8a8a8">CONTACT</a>
+        </p>
+      </div>
+    </div>
+
+    <script src="./js/console.js"></script>
+    <script src="./js/blurry-text.js"></script>
+    <script>
+      window.addEventListener("load", function () {
+        document.body.style.opacity = "1"; // 页面加载完成后，将不透明度设置为 1，触发淡入效果
+      });
+    </script>
+  </body>
+</html>
